@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
+    <title>Profile-Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/891edb36b4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-left">
+            <a href="index.html"><img src="logo.png" class="logo"></a>
+            <ul>
+                <li><img src="notification.png" alt=""></li>
+                <li><img src="inbox.png" alt=""></li>
+                <li><img src="video.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="Search friends">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="profile-pic.png" alt="">
+            </div>
+        </div>
+
+        <div class="settings-menu">
+
+
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="profile-pic.png" alt="">
+                    <div>
+                        <p>John Cena</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help Us to Improve SocialBook</a>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="settings-links">
+                    <img src="setting.png" class="settings-icons">
+                    <a href="#">Settings & Privacy <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="help.png" class="settings-icons">
+                    <a href="#">Help & Support<img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="display.png" class="settings-icons">
+                    <a href="#">Display & Accessibility<img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="logout.png" class="settings-icons">
+                    <a href="#">Logout<img src="arrow.png" width="10px"></a>
+                </div>
+
+
+
+            </div>
+        </div>
+
+    </nav>
+
+
+    <!-- ---------profile-page-------------- -->
+
+
+    <div class="profile-container">
+        <img src="cover.png" class="cover-img">
+
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="profile.png" alt="" class="pd-image">
+                    <div>
+                        <h3>John Cena</h3>
+                        <p>120 Friends | 20 Mutual</p>
+                        <img src="member-6.png" alt="">
+                        <img src="member-5.png" alt="">
+                        <img src="member-2.png" alt="">
+                        <img src="member-3.png" alt="">
+                        <img src="photo1.png" alt="">
+                        <img src="photo2.png" alt="">
+                        <img src="photo3.png" alt="">
+                        <img src="photo4.png" alt="">
+                        <img src="photo5.png" alt="">
+                        <img src="photo6.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="pd-right">
+                <button type="button"><i class="fa-solid fa-upload"></i>&nbsp;&nbsp;&nbsp;Add to Story</button>
+                <button type="button"><i class="fas fa-edit"></i>&nbsp;&nbsp;Edit Profile</button>
+                <button type="button"> <img src="add-friends.png" alt="">Friends</button>
+                <button type="button"> <img src="message.png" alt="">Message</button>
+                <br>
+                <a href=""><img src="more.png" alt=""></a>
+            </div>
+        </div>
+
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. unde eum? <img
+                            src="feeling.png" alt=""></p>
+                    <hr>
+                    <ul>
+                        <li><img src="profile-job.png" alt=""> Director at 99 Media Ltd</li>
+                        <li><img src="profile-study.png" alt=""> Studied at JSSATEB</li>
+                        <li><img src="profile-study.png" alt=""> Went to J.B.I.P.C.</li>
+                        <li><img src="profile-location.png" alt=""> Lives in Bangalore, Karnataka</li>
+                        <li><img src="profile-home.png" alt=""> From Lucknow, Uttar Pradesh </li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+
+                    <div class="photo-box">
+                        <div><img src="photo1.png" alt=""></div>
+                        <div><img src="photo2.png" alt=""></div>
+                        <div><img src="photo3.png" alt=""></div>
+                        <div><img src="photo4.png" alt=""></div>
+                        <div><img src="photo5.png" alt=""></div>
+                        <div><img src="photo6.png" alt=""></div>
+                        <div><img src="photo1.png" alt=""></div>
+                        <div><img src="photo2.png" alt=""></div>
+                        <div><img src="photo3.png" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p class="friends-no">120 (10 Mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="member-1.png" alt="">
+                            <p>John Cena</p>
+                        </div>
+                        <div><img src="member-2.png" alt="">
+                            <p>John Cena</p>
+                        </div>
+                        <div><img src="member-3.png" alt="">
+                            <p>John Cena</p>
+                        </div>
+                        <div><img src="member-4.png" alt="">
+                            <p>John Cena</p>
+                        </div>
+                        <div><img src="member-5.png" alt="">
+                            <p>John Cena</p>
+                        </div>
+                        <div><img src="member-6.png" alt="">
+                            <p>John Cena</p>
+                        </div>
+                        <div><img src="member-7.png" alt="">
+                            <p>John Cena</p>
+                        </div>
+                        <div><img src="member-8.png" alt="">
+                            <p>John Cena</p>
+                        </div>
+                        <div><img src="member-9.png" alt="">
+                            <p>John Cena</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="profile-pic.png" alt="">
+                        <div>
+                            <p>John Cena</p>
+                            <small>Public <i class="fa-solid fa-caret-down"></i></small>
+
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+
+                        <div class="add-post-links">
+                            <a href=""><img src="live-video.png" alt="">Live Video</a>
+                            <a href=""><img src="photo.png" alt="">Photo/Video</a>
+                            <a href=""><img src="feeling.png" alt="">Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="post-items">
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-1.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-1.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-1.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-2.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-2.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-2.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-3.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-3.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-3.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-4.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-4.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-4.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-5.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-5.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-5.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-6.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-5.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-6.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-7.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-1.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-7.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-8.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-2.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-8.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-9.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-3.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-9.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-1.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-4.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-1.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-2.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-5.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-2.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-3.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-1.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-3.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-4.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-2.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-4.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-5.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-3.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-5.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-6.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-4.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-6.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="member-7.png" alt="">
+                                <div>
+                                    <p>John Cena</p>
+                                    <span>June 24 2022, 12:06 pm</span>
+                                </div>
+                            </div>
+                            <a href="#" style="margin-bottom: 10px;"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+                        </div>
+
+                        <p class="post-text">Lorem ipsum,<span>@dolor sit</span> amet consectetur adipisicing elit.
+                            Dolores
+                            eius
+                            doloribus reprehenderit odit facilis. <a href="#">#Easy Tutorials</a> <a href="#"> #Youtube
+                                Channel</a></p>
+                        <img src="feed-image-5.png" class="post-img">
+
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div><img src="like-blue.png" alt="">120</div>
+                                <div><img src="comments.png" alt="">80</div>
+                                <div><img src="share.png" alt="">32</div>
+                            </div>
+                            <div class="post-profile-icons">
+                                <img src="member-7.png" alt="">
+                                <i class="fa-solid fa-caret-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <p>&copy; Cpoyright: SocialBook 2023-24 | Anurag Jaiwal</p>
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
