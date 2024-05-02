@@ -12,9 +12,9 @@
 }
 
 .dark-theme {
-    --body-color: #101010;
-    --nav-color: #000;
-    --bg-color: #000;
+    --body-color: #000000;
+    --nav-color:#000000;
+    --bg-color: #100f0f;
 }
 
 
