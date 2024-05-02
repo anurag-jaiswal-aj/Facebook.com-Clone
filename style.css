@@ -497,7 +497,7 @@ nav {
 .settings-menu {
     position: absolute;
     width: 90%;
-    max-width: 350px;
+    max-width: 340px;
     /* height: 390px; */
     background: var(--bg-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
