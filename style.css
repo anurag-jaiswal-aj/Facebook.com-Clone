@@ -454,10 +454,12 @@ nav {
     margin-right: 30px;
 }
 
+
 .post-profile-icons {
     display: flex;
     align-items: center;
 }
+
 
 .post-profile-icons img {
     width: 30px;
