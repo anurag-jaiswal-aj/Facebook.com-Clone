@@ -490,9 +490,11 @@ nav {
     background-color: var(--nav-color);
 }
 
+
 .footer p {
     color: white;
 }
+
 
 .settings-menu {
     position: absolute;
