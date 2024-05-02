@@ -443,10 +443,12 @@ nav {
     justify-content: space-between;
 }
 
+
 .activity-icons div img {
     width: 18px;
     margin-right: 10px;
 }
+
 
 .activity-icons div {
     display: inline-flex;
