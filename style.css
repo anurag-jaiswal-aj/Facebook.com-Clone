@@ -431,11 +431,13 @@ nav {
     text-decoration: none;
 }
 
+
 .post-img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 5px;
 }
+
 
 .post-row {
     display: flex;
