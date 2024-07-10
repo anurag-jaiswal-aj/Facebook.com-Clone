@@ -17,7 +17,6 @@ Technologies Used:
 
 HTML: Structure and content presentation.
 CSS: Styling and layout.
-JavaScript: Client-side interactivity and DOM manipulation.
 
 To run SocialBook locally, follow these steps:
 
